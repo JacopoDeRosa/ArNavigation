@@ -6,20 +6,29 @@ using System.Net;
 
 public static class EmailSender
 {
-    public static void SendEmail(string subject, string content, params string[] to)
+    public static void SendResultEmail(string subject, string content, params string[] to)
     {
+        SendEmail("smtp.gmail.com", "jacopo.derosa00@gmail.com", "zmegaeflteceqdjk", subject, content, 587, "j.derosa@rbw-cgi.it");
+    }
+
+    public static void SendEmail(string Smtp, string from, string password, string subject, string content, int port, params string[] to)
+    {
+
         MailMessage mail = new MailMessage();
-        SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
-        mail.From = new MailAddress("jacopo.derosa00@gmail.com");
-        mail.To.Add("e.taddei@rbw-cgi.it");
-        mail.To.Add("j.derosa@rbw-cgi.it");
+        SmtpClient SmtpServer = new SmtpClient(Smtp);
+        mail.From = new MailAddress(from);
+
+        foreach (string receiver in to)
+        {
+            mail.To.Add(receiver);
+        }
+
         mail.Subject = subject;
         mail.Body = content;
 
-
-        SmtpServer.Port = 587;
+        SmtpServer.Port = port;
         SmtpServer.UseDefaultCredentials = false;
-        SmtpServer.Credentials = new NetworkCredential("jacopo.derosa00@gmail.com", "zmegaeflteceqdjk");
+        SmtpServer.Credentials = new NetworkCredential(from, password);
         SmtpServer.EnableSsl = true;
         SmtpServer.DeliveryMethod = SmtpDeliveryMethod.Network;
 

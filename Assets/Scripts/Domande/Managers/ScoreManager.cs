@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class ScoreManager : MonoBehaviour
 {
-    private int _wrongAnswers = 0;
-
-    public int WrongAnswers { get => _wrongAnswers; }
-
     private void Awake()
     {
         FindObjectOfType<DomandaUI>().onRispostaSbagliata += OnWrongAnswer;
@@ -15,6 +11,6 @@ public class ScoreManager : MonoBehaviour
 
     public void OnWrongAnswer()
     {
-        _wrongAnswers++;
+        SessionData.IncreaseWrongQuestions();
     }
 }

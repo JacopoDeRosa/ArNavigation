@@ -12,15 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
   m_Name: Domanda 3
   m_EditorClassIdentifier: 
-  _titolo: Il Secchio
+  _titolo: DOMANDA 3
   _immagine: {fileID: 0}
-  _testoDomanda: Sei in una stanza con il tuo secchio e alcuni oggetti in fiamme,
-    su cosa metti l'acqua prima per evitare un incendio?
-  _rispostaCorretta: 5
+  _testoDomanda: "Prima di abbandonare i locali l\u2019addetto compie una verifica
+    dei locali limitrofi al principio di\r\nincendio domato.\r\nSi avvicina ad una
+    porta provando ad aprirla.\r\nCome devi comportarti?\r\nA. Apri la porta e controlli
+    l\u2019interno della stanza\r\nB. Ti avvicini alla porta, ne verifichi la temperatura
+    avvicinando una mano alla sua superficie\r\ne, con cautela, la apri"
+  _rispostaCorretta: 1
   _possibiliRisposte:
-  - _testo: La Tovaglia
-  - _testo: Il Tavolo
-  - _testo: La Sedia
-  - _testo: Le Tende
-  - _testo: Il Tappeto
-  - _testo: Il Secchio
+  - _testo: A
+  - _testo: B
