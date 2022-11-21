@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
+  m_Name: Domanda 2
+  m_EditorClassIdentifier: 
+  _titolo: DOMANDA 2
+  _immagine: {fileID: 0}
+  _testoDomanda: "L\u2019AGE, giunto sul luogo dell\u2019emergenza provvede ad effettuare
+    un primo intervento,\r\nscegliendo la tipologia di estintore adeguata all\u2019incendio
+    in atto, di materiali solidi.\r\nQuale estintore sceglie?\r\nA. Estintore a Polvere\r\nB.
+    Estintore ad anidride carbonica"
+  _rispostaCorretta: 0
+  _possibiliRisposte:
+  - _testo: A
+  - _testo: B

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
+  m_Name: Domanda 3
+  m_EditorClassIdentifier: 
+  _titolo: DOMANDA 3
+  _immagine: {fileID: 0}
+  _testoDomanda: "Prima di abbandonare i locali l\u2019addetto compie una verifica
+    dei locali limitrofi al principio di\r\nincendio domato.\r\nSi avvicina ad una
+    porta provando ad aprirla.\r\nCome devi comportarti?\r\nA. Apri la porta e controlli
+    l\u2019interno della stanza\r\nB. Ti avvicini alla porta, ne verifichi la temperatura
+    avvicinando una mano alla sua superficie\r\ne, con cautela, la apri"
+  _rispostaCorretta: 1
+  _possibiliRisposte:
+  - _testo: A
+  - _testo: B
