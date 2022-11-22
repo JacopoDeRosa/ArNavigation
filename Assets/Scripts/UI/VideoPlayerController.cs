@@ -3,11 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.Events;
 
 public class VideoPlayerController : MonoBehaviour
 {
     [SerializeField] private VideoPlayer _player;
+    [SerializeField] private VideoClip _clip;
 
+    public  UnityEvent onVideoEnd;
 
     private void Awake()
     {
@@ -19,8 +22,14 @@ public class VideoPlayerController : MonoBehaviour
         StartCoroutine(PlayVideoRoutine(clip));
     }
 
+    public void PlayVideo()
+    {
+        PlayeVideo(_clip);
+    }
+
     private void OnPlayEnd(VideoPlayer source)
     {
+        onVideoEnd?.Invoke();
         StartCoroutine(HideVideoPlayer());
     }
 
@@ -34,11 +43,14 @@ public class VideoPlayerController : MonoBehaviour
 
     private IEnumerator ShowVideoPlayer()
     {
-        _player.gameObject.SetActive(true);
+   
 
         WaitForSeconds wait = new WaitForSeconds(0.02f);
 
         Vector3 scale = new Vector3(0, 0, 0);
+
+        _player.transform.localScale = scale;
+        _player.gameObject.SetActive(true);
 
         while (scale.x < 1)
         {
@@ -52,7 +64,7 @@ public class VideoPlayerController : MonoBehaviour
     {
         WaitForSeconds wait = new WaitForSeconds(0.02f);
 
-        Vector3 scale = new Vector3(0, 0, 0);
+        Vector3 scale = new Vector3(1, 1, 1);
 
         while (scale.x > 0)
         {
