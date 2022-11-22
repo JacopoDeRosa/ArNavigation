@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class UiManager : MonoBehaviour
+public class PromptManager : MonoBehaviour
 {
     [SerializeField] private TMP_Text _promptText;
 

@@ -7,7 +7,7 @@ public class ResetPromptAction : MonoBehaviour
    
     void Start()
     {
-        FindObjectOfType<UiManager>().ResetPromptText();
+        FindObjectOfType<PromptManager>().ResetPromptText();
     }
 
 }

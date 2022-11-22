@@ -8,7 +8,7 @@ public class SetPromptAction : MonoBehaviour
 
     void Start()
     {
-        FindObjectOfType<UiManager>().SetPromptText(_prompt);
+        FindObjectOfType<PromptManager>().SetPromptText(_prompt);
     }
 
 }
