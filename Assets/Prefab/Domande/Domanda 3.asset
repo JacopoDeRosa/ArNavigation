@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
   m_Name: Domanda 3
   m_EditorClassIdentifier: 
-  _titolo: DOMANDA 3
-  _immagine: {fileID: 0}
+  _titolo: Domanda 3
   _testoDomanda: "Prima di abbandonare i locali l\u2019addetto compie una verifica
     dei locali limitrofi al principio di\r\nincendio domato.\r\nSi avvicina ad una
     porta provando ad aprirla.\r\nCome devi comportarti?\r\nA. Apri la porta e controlli

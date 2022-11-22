@@ -16,7 +16,7 @@ public class SimpleWaypoint : MonoBehaviour
 
     public void SetNextPoint()
     {
-        _nextPoint?.SetActive(true);
+        if(_nextPoint != null) _nextPoint.SetActive(true);
         gameObject.SetActive(false);
         onNextPoint.Invoke();
     }

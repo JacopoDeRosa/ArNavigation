@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
+  m_Name: Domanda 5
+  m_EditorClassIdentifier: 
+  _titolo: Domanda 5
+  _testoDomanda: "Durante l\u2019evacuazione, come procedi? Indica la risposta corretta:\r\n\nA.
+    Attendi l\u2019arrivo del personale di supporto e successivamente procedi all\u2019evacuazione
+    del personale\r\nB. Indirizzi tutti i presenti verso le uscite di emergenza controllando
+    che tutti i locali, inclusi i servizi igienici, siano stati abbandonati\r\nC.
+    Cerchi di contattare gli addetti all\u2019emergenza delle aree limitrofe per
+    comunicare l\u2019evacuazione in atto"
+  _rispostaCorretta: 1
+  _possibiliRisposte:
+  - _testo: A
+  - _testo: B
+  - _testo: C

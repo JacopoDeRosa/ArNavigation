@@ -37,3 +37,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: T2
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5652664324083220884
+      m_GuidHigh: 9611495545604679321
+    m_SerializedTextureGuid:
+      m_GuidLow: 4968620343650830963
+      m_GuidHigh: 8048910959975166937
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: T3
+    m_Texture: {fileID: 0}

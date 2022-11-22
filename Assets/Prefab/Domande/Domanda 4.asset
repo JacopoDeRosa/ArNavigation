@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
+  m_Name: Domanda 4
+  m_EditorClassIdentifier: 
+  _titolo: Domanda 4
+  _testoDomanda: "Aperta la porta ti trovi davanti ad uno scenario imprevisto: un
+    incendio generalizzato nel fondo della stanza. \r\nCome ti comporti? Indica la
+    sequenza corretta:\r\n\nA. Ti predisponi per l\u2019evacuazione del personale
+    presente nell\u2019area\r\nB. Verifichi che tutti i locali di lavoro siano stati
+    abbandonati, inclusi i servizi igienici\r\nC. Comunichi immediatamente quanto
+    verificato al Coordinatore per l\u2019emergenza attendendo l\u2019ordine di evacuazione"
+  _rispostaCorretta: 0
+  _possibiliRisposte:
+  - _testo: CAB
+  - _testo: BAC
+  - _testo: ACB
+  - _testo: ABC

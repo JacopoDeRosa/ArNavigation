@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a95e6a354f9924081be536bd79d3fa, type: 3}
   m_Name: Domanda 1
   m_EditorClassIdentifier: 
-  _titolo: DOMANDA 1
-  _immagine: {fileID: 0}
+  _titolo: Domanda 1
   _testoDomanda: "L'AGE (Addetto Gestione delle Emergenze) si trova nella sua postazione.\r\nRiceve
     l\u2019avviso da un collega di un principio di incendio presso l\u2019ala C del
     primo piano torre\r\nB.\r\nCosa fa l'addetto? Metti le azioni a seguire nella
