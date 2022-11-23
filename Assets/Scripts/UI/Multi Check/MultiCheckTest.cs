@@ -13,6 +13,7 @@ public class MultiCheckTest : MonoBehaviour
     {
         foreach (MultiCheckButton button in _buttons)
         {
+            button.gameObject.SetActive(true);
             button.Init();
             button.onPress += OnButtonPressed;
         }
@@ -20,11 +21,21 @@ public class MultiCheckTest : MonoBehaviour
 
     private void EndTest()
     {
-
+        onTestEnd?.Invoke();
+        foreach (MultiCheckButton button in _buttons)
+        {
+            button.gameObject.SetActive(false);
+        }
     }
 
     private void OnButtonPressed()
     {
-        
+       
+        foreach (MultiCheckButton button in _buttons)
+        {
+            if (button.Pressed == false) return;
+        }
+
+        EndTest();
     }
 }

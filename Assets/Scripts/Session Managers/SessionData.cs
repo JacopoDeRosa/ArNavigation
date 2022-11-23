@@ -33,4 +33,25 @@ public static class SessionData
 
         return data;
     }
+
+    public static SessionDataContainer GetSessionDataContainer()
+    {
+        TimeSpan time = TimeSpan.FromSeconds(Time.time - _timeAtStart);
+
+        return new SessionDataContainer(UserName, _domandeSbagliate, time.ToString("hh':'mm':'ss"));
+    }
+}
+
+public class SessionDataContainer
+{
+    public string _name;
+    public int _domandeSbagliate;
+    public string _totalTime;
+
+    public SessionDataContainer(string name, int domandeSbagliate, string totalTime)
+    {
+        _name = name;
+        _domandeSbagliate = domandeSbagliate;
+        _totalTime = totalTime;
+    }
 }

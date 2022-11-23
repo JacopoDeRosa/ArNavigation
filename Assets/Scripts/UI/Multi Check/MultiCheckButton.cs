@@ -23,8 +23,8 @@ public class MultiCheckButton : MonoBehaviour, IPointerDownHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        onPress?.Invoke();
         _image.sprite = _on;
         _pressed = true;
+        onPress?.Invoke();
     }
 }
