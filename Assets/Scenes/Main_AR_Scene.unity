@@ -442,7 +442,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: Domanda, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Scansiona Target 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &273979771
@@ -2210,6 +2210,8 @@ MonoBehaviour:
   - {fileID: 6290447886488808975, guid: a44a01e30bbbfc740ab2066451be4084, type: 3}
   - {fileID: 6244593766385225541, guid: 2a8ebbb8ae2e43448a2827a02ac951bb, type: 3}
   - {fileID: 6244593766385225541, guid: 88b9d8449e5713e4dabb49cb35fb315e, type: 3}
+  - {fileID: 6244593766385225541, guid: aaf03b2b5df53604ab6638da868601e4, type: 3}
+  - {fileID: 6244593766385225541, guid: c8550bc2b7e0db54db9c2f3f638ad23e, type: 3}
 --- !u!114 &1080214410 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2061902162069447526, guid: e880967ad5cd0904283cb28367796523, type: 3}
@@ -3553,16 +3555,16 @@ MonoBehaviour:
   OnAnswer:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6130795097002374058}
-        m_TargetAssemblyTypeName: DomandaUI, Assembly-CSharp
-        m_MethodName: ReadQuestionDelayed
-        m_Mode: 2
+      - m_Target: {fileID: 6130795098949770682}
+        m_TargetAssemblyTypeName: PromptManager, Assembly-CSharp
+        m_MethodName: SetPromptText
+        m_Mode: 5
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 7efc23870c4abcc4687b0a4dcc0e501e, type: 2}
-          m_ObjectArgumentAssemblyTypeName: Domanda, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Scansiona Target 4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1889312553
