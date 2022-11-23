@@ -27,6 +27,11 @@ public class VideoPlayerController : MonoBehaviour
         PlayeVideo(_clip);
     }
 
+    public void SkipVideo()
+    {
+        OnPlayEnd(_player);
+    }
+
     private void OnPlayEnd(VideoPlayer source)
     {
         onVideoEnd?.Invoke();
