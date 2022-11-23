@@ -47,3 +47,23 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: T3
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4688370050685385474
+      m_GuidHigh: 9678741873625001865
+    m_SerializedTextureGuid:
+      m_GuidLow: 1379446567174869485
+      m_GuidHigh: 17244300915108453769
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: T4
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5076787500612517411
+      m_GuidHigh: 2380157675791305389
+    m_SerializedTextureGuid:
+      m_GuidLow: 3464420847712993236
+      m_GuidHigh: 1836567501608687385
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: T5
+    m_Texture: {fileID: 0}
