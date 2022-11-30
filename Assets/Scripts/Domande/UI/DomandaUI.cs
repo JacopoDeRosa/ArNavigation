@@ -25,7 +25,11 @@ public class DomandaUI : MonoBehaviour
 
     public void ReadQuestionDelayed(Domanda domanda)
     {
-        StartCoroutine(ReadQuestionDelayedRoutine(domanda));
+        StartCoroutine(ReadQuestionDelayedRoutine(domanda, 2));
+    }
+    public void ReadQuestionDelayed(Domanda domanda, float delay)
+    {
+        StartCoroutine(ReadQuestionDelayedRoutine(domanda, delay));
     }
 
     public bool TryAnswer(int answer)
@@ -83,9 +87,9 @@ public class DomandaUI : MonoBehaviour
         _containerRisposte.localScale = Vector3.one;
     }
 
-    private IEnumerator ReadQuestionDelayedRoutine(Domanda domanda)
+    private IEnumerator ReadQuestionDelayedRoutine(Domanda domanda, float delay)
     {
-        yield return new WaitForSeconds(2.00f);
+        yield return new WaitForSeconds(delay);
         yield return ReadQuestionRoutine(domanda);
 
     }
