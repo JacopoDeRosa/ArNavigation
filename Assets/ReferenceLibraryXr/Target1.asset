@@ -67,3 +67,13 @@ MonoBehaviour:
     m_SpecifySize: 0
     m_Name: T5
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5334909125679922391
+      m_GuidHigh: 4131738215361037709
+    m_SerializedTextureGuid:
+      m_GuidLow: 7013493543507476479
+      m_GuidHigh: 8897854193305741979
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Tfire
+    m_Texture: {fileID: 0}
