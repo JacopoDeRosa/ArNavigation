@@ -89,7 +89,7 @@ public class TrackMultiple : MonoBehaviour
         else //if tracked image tracking state is limited or none 
         {
             //deactivate the image tracked ar object 
-            allObjects[trackedImage.referenceImage.name].SetActive(false);
+            //allObjects[trackedImage.referenceImage.name].SetActive(false);
         }
     }
 
@@ -106,14 +106,14 @@ public class TrackMultiple : MonoBehaviour
         foreach (var updated in args.updated)
         {
             //throw tracked image to check tracking state
-            UpdateTrackedObject(updated);
+            //UpdateTrackedObject(updated);
         }
 
         // for each tracked image that has been removed  
         foreach (var trackedImage in args.removed)
         {
             // destroy the AR object associated with the tracked image
-            Destroy(trackedImage.gameObject);
+            //Destroy(trackedImage.gameObject);
         }
     }
 }
