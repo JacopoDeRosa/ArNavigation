@@ -14,7 +14,7 @@ public class TrackMultiple : MonoBehaviour
     private int refImageCount;
     private Dictionary<string, GameObject> allObjects;
 
-    //create the “trackable” manager to detect 2D images
+    //create the ï¿½trackableï¿½ manager to detect 2D images
     private ARTrackedImageManager arTrackedImageManager;
     private IReferenceImageLibrary refLibrary;
 
@@ -27,7 +27,7 @@ public class TrackMultiple : MonoBehaviour
 
     //when the tracked image manager is enabled add binding to the tracked 
     //image changed event handler by calling a method to iterate through 
-    //image reference’s changes 
+    //image referenceï¿½s changes 
     private void OnEnable()
     {
         arTrackedImageManager.trackedImagesChanged += OnImageChanged;
@@ -35,7 +35,7 @@ public class TrackMultiple : MonoBehaviour
 
     //when the tracked image manager is disabled remove binding to the 
     //tracked image changed event handler by calling a method to iterate 
-    //through image reference’s changes
+    //through image referenceï¿½s changes
     private void OnDisable()
     {
         arTrackedImageManager.trackedImagesChanged -= OnImageChanged;
@@ -72,6 +72,7 @@ public class TrackMultiple : MonoBehaviour
     {
         Debug.Log("Tracked the target: " + imageName);
         allObjects[imageName].SetActive(true);
+     
         // Give the initial image a reasonable default scale
         //allObjects[imageName].transform.localScale = new Vector3(0.0001f, 0.0001f, 0.0001f);
     }
@@ -99,14 +100,15 @@ public class TrackMultiple : MonoBehaviour
         foreach (var addedImage in args.added)
         {
             ActivateTrackedObject(addedImage.referenceImage.name);
-
+            allObjects[addedImage.referenceImage.name].transform.position = addedImage.transform.position;
+            allObjects[addedImage.referenceImage.name].transform.rotation = addedImage.transform.rotation;
         }
 
         // for each tracked image that has been updated
         foreach (var updated in args.updated)
         {
             //throw tracked image to check tracking state
-            //UpdateTrackedObject(updated);
+            UpdateTrackedObject(updated);
         }
 
         // for each tracked image that has been removed  
