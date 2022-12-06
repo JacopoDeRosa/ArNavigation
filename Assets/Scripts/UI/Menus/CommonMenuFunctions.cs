@@ -8,4 +8,9 @@ public class CommonMenuFunctions : MonoBehaviour
     {
         SceneLoader.Instance.LoadScene(0);
     }
+
+   public void LoadScene(int index)
+   {
+       SceneLoader.Instance.LoadScene(index);
+   }
 }
