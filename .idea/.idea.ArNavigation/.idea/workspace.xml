@@ -21,6 +21,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.build.unityPlugin",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -63,6 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670237603395</updated>
       <workItem from="1670237607349" duration="52000" />
+      <workItem from="1670238167611" duration="777000" />
+      <workItem from="1670319885848" duration="720000" />
     </task>
     <servers />
   </component>
