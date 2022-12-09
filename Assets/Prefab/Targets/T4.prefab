@@ -44,4 +44,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84e2fa94c663b72418bba1a1382113f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prompt: Scansiona Target 5
+  _prompt: Vai al punto di raccolta e scansiona Target 5
