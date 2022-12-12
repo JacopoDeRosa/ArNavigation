@@ -7042,6 +7042,7 @@ MonoBehaviour:
   - {fileID: 6244593766385225541, guid: aaf03b2b5df53604ab6638da868601e4, type: 3}
   - {fileID: 6244593766385225541, guid: c8550bc2b7e0db54db9c2f3f638ad23e, type: 3}
   - {fileID: 2690948890869963262, guid: 1d19ec77ae119564a9aca65b4d5844c2, type: 3}
+  arsession: {fileID: 185905721}
 --- !u!1 &1041433929
 GameObject:
   m_ObjectHideFlags: 0

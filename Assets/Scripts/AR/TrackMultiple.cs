@@ -10,7 +10,7 @@ public class TrackMultiple : MonoBehaviour
     [Header("The length of this list must match the number of images in Reference Image Library")]
     [SerializeField]
     private List<GameObject> ObjectsToPlace;
-
+    public ARSession arsession;
     private int refImageCount;
     private Dictionary<string, GameObject> allObjects;
 
@@ -20,6 +20,7 @@ public class TrackMultiple : MonoBehaviour
 
     void Awake()
     {
+        arsession.Reset();
         //initialized tracked image manager  
         arTrackedImageManager = GetComponent<ARTrackedImageManager>();
     }
