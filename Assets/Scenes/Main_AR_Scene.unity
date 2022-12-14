@@ -16962,12 +16962,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-'
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
+  m_sharedMaterial: {fileID: 489522068057183698, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -16978,10 +16976,10 @@ MonoBehaviour:
   m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 0.28627452, b: 0.53333336, a: 1}
-    topRight: {r: 0.8490566, g: 0, b: 0.32753477, a: 1}
-    bottomLeft: {r: 1, g: 0.740566, b: 0.83037007, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0.27450982, b: 0.5294118, a: 1}
+    topRight: {r: 1, g: 0.05882353, b: 0.39215687, a: 1}
+    bottomLeft: {r: 1, g: 0.6650944, b: 0.782764, a: 1}
+    bottomRight: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
