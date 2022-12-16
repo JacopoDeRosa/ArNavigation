@@ -5645,7 +5645,8 @@ MonoBehaviour:
   _endGameMenu: {fileID: 1681106387}
   _content: {fileID: 429911232}
   _title: {fileID: 1269361197}
-  _sendResultMail: 1
+  _sendResultMail: 0
+  _saveFileInDocus: 1
 --- !u!1 &844323374
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class SessionManager : MonoBehaviour
     [SerializeField] private GameObject _endGameMenu;
     [SerializeField] private TMP_Text _content, _title;
     [SerializeField] private bool _sendResultMail;
+    [SerializeField] private bool _saveFileInDocus;
 
 
     public void EndSession()
@@ -19,6 +20,10 @@ public class SessionManager : MonoBehaviour
         if(_sendResultMail)
         {
             EmailSender.SendEmail(PlayerPrefs.GetString(PrefKeys.k_smpt), PlayerPrefs.GetString(PrefKeys.k_out), PlayerPrefs.GetString(PrefKeys.k_password), _title.text, SessionData.GetSessionData(), PlayerPrefs.GetInt(PrefKeys.k_port), PlayerPrefs.GetString(PrefKeys.k_mail));
+        }
+        if(_saveFileInDocus)
+        {
+            SaveData.SaveSessionData();
         }
     }
 
