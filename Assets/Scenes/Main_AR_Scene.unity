@@ -15798,19 +15798,7 @@ MonoBehaviour:
   _titoloDomanda: {fileID: 6130795097483921479}
   onRisposta:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: ThrowAwayAction, Assembly-CSharp
-        m_MethodName: OnRisposta
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1001 &6130795097210394664
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15980,8 +15968,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: TITOLO
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
+  m_sharedMaterial: {fileID: 489522068057183698, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -15989,13 +15977,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0.27450982, b: 0.5294118, a: 1}
+    topRight: {r: 1, g: 0.05882353, b: 0.39215687, a: 1}
+    bottomLeft: {r: 1, g: 0.6650944, b: 0.782764, a: 1}
+    bottomRight: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -16005,13 +15993,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 55
-  m_fontSizeBase: 55
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 19
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -16146,6 +16134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1001 &6130795097728854370
@@ -16246,6 +16238,10 @@ PrefabInstance:
     - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
       propertyPath: m_Name
       value: Bottone Risposta (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
@@ -16348,6 +16344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1 &6130795097888020752
@@ -16404,7 +16404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.17755428, g: 0.40715653, b: 0.6603774, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -16543,6 +16543,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1001 &6130795098272528681
@@ -16644,6 +16648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1 &6130795098318569744
@@ -16697,15 +16705,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.109069064, g: 0.25133646, b: 0.4056604, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 61eead195229b3f4384b101cc6051253, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -16820,6 +16828,10 @@ PrefabInstance:
     - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
       propertyPath: m_Name
       value: Bottone Risposta (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
@@ -17120,8 +17132,8 @@ MonoBehaviour:
   m_text: QUESTA BOX RAPPRESENTA CONTIENE LA DOMANDA E LE EVENTUALI IMMAGINI RELATIVE
     AD ESSA.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
+  m_sharedMaterial: {fileID: 489522068057183698, guid: f7a173f2a213c29409ff62d146c5b1b1, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -17129,13 +17141,13 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
-  m_enableVertexGradient: 0
+  m_enableVertexGradient: 1
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 1, g: 0.27450982, b: 0.5294118, a: 1}
+    topRight: {r: 1, g: 0.05882353, b: 0.39215687, a: 1}
+    bottomLeft: {r: 1, g: 0.6650944, b: 0.782764, a: 1}
+    bottomRight: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
@@ -17145,14 +17157,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -17294,6 +17306,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1001 &6130795098788229587
@@ -17395,6 +17411,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bottone Risposta (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}
 --- !u!1001 &6130795098862931656
@@ -17495,6 +17515,10 @@ PrefabInstance:
     - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
       propertyPath: m_Name
       value: Bottone Risposta (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2678317813537989739, guid: e880967ad5cd0904283cb28367796523, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e880967ad5cd0904283cb28367796523, type: 3}

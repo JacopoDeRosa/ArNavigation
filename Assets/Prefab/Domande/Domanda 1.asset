@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Domanda 1
   m_EditorClassIdentifier: 
   _titolo: Domanda 1
-  _testoDomanda: "L'AGE (Addetto Gestione delle Emergenze) si trova nella sua postazione.\r\nRiceve
-    l\u2019avviso da un collega di un principio di incendio presso l\u2019ala C del
-    primo piano torre\r\nB.\r\nCosa fa l'addetto? Metti le azioni a seguire nella
-    sequenza corretta:\nA. Si reca sul luogo dell'emergenza\r\nB. Chiama il Coordinatore
-    per le emergenze\r\nC. Indossa il gilet alta visibilit\xE0 recante la scritta
-    \u201CAddetto alle emergenze\u201D"
+  _testoDomanda: "L'AGE (Addetto Gestione delle Emergenze) si trova nella sua postazione.\r
+    Riceve l\u2019avviso da un collega di un principio di incendio presso l\u2019ala
+    C del primo piano torre\r B.\r\nCosa fa l'addetto? Metti le azioni a seguire
+    nella sequenza corretta:\n\nA. Si reca sul luogo dell'emergenza\r\nB. Chiama
+    il Coordinatore per le emergenze\r\nC. Indossa il gilet alta visibilit\xE0 recante
+    la scritta \u201CAddetto alle emergenze\u201D"
   _rispostaCorretta: 1
   _possibiliRisposte:
   - _testo: ABC
