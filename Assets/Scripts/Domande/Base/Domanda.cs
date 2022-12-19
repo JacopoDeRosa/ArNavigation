@@ -22,4 +22,9 @@ public class Domanda : ScriptableObject
     public string TestoDomanda { get => _testoDomanda; }
     public int RispostaCorretta { get => _rispostaCorretta; }
     public Risposta[] Risposte { get => _possibiliRisposte; }
+
+    private void OnValidate()
+    {
+      _testoDomanda = _testoDomanda.Replace("\r", "");
+    }
 }

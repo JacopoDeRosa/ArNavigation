@@ -7,5 +7,7 @@ public class NeverSleep : MonoBehaviour
     void Start()
     {   
         Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
+        Debug.Log(Application.persistentDataPath + "/DatiSessioneAr" + ".json");
     }
 }

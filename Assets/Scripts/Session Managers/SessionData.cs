@@ -47,11 +47,14 @@ public class SessionDataContainer
     public string _name;
     public int _domandeSbagliate;
     public string _totalTime;
+    public string _date;
 
     public SessionDataContainer(string name, int domandeSbagliate, string totalTime)
     {
         _name = name;
         _domandeSbagliate = domandeSbagliate;
         _totalTime = totalTime;
+        _date = System.DateTime.Now.ToString();
+
     }
 }

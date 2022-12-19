@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Domanda 5
   m_EditorClassIdentifier: 
   _titolo: Domanda 5
-  _testoDomanda: "Durante l\u2019evacuazione, come procedi? Indica la risposta corretta:\r\n\nA.
+  _testoDomanda: "Durante l\u2019evacuazione, come procedi? Indica la risposta corretta:\n\nA.
     Attendi l\u2019arrivo del personale di supporto e successivamente procedi all\u2019evacuazione
-    del personale\r\nB. Indirizzi tutti i presenti verso le uscite di emergenza controllando
-    che tutti i locali, inclusi i servizi igienici, siano stati abbandonati\r\nC.
-    Cerchi di contattare gli addetti all\u2019emergenza delle aree limitrofe per
-    comunicare l\u2019evacuazione in atto"
+    del personale\nB. Indirizzi tutti i presenti verso le uscite di emergenza controllando
+    che tutti i locali, inclusi i servizi igienici, siano stati abbandonati\nC. Cerchi
+    di contattare gli addetti all\u2019emergenza delle aree limitrofe per comunicare
+    l\u2019evacuazione in atto"
   _rispostaCorretta: 1
   _possibiliRisposte:
   - _testo: A

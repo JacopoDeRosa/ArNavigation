@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Domanda 6
   m_EditorClassIdentifier: 
   _titolo: Domanda 6
-  _testoDomanda: "\rDurante l\u2019evacuazione, come procedo? Metti le risposte nella
-    sequenza corretta:\r\n\nA. Raggiungo il punto di raccolta\r\nB. Indirizzo i presenti
+  _testoDomanda: "Durante l\u2019evacuazione, come procedo? Metti le risposte nella
+    sequenza corretta:\n\nA. Raggiungo il punto di raccolta\nB. Indirizzo i presenti
     in ciascuna stanza controllata verso l\u2019uscita di emergenza, ricordando a
-    tutti di mantenere la calma ed uscire ordinatamente senza correre\r\nC. Verifico
+    tutti di mantenere la calma ed uscire ordinatamente senza correre\nC. Verifico
     che tutti gli ambienti controllati siano vuoti"
   _rispostaCorretta: 1
   _possibiliRisposte:

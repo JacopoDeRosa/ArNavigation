@@ -14,11 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _titolo: Domanda 3
   _testoDomanda: "Prima di abbandonare i locali l\u2019addetto compie una verifica
-    dei locali limitrofi al principio di\r\nincendio domato.\r\nSi avvicina ad una
-    porta provando ad aprirla.\r\nCome devi comportarti?\r\n\nA. Apri la porta e
-    controlli l\u2019interno della stanza\r\nB. Ti avvicini alla porta, ne verifichi
-    la temperatura avvicinando una mano alla sua superficie\r\ne, con cautela, la
-    apri"
+    \ndei locali limitrofi al principio di incendio domato.\nSi avvicina ad una porta
+    provando ad aprirla.\nCome devi comportarti?\n\nA. Apri la porta e controlli
+    l\u2019interno della stanza\nB. Ti avvicini alla porta, ne verifichi la temperatura
+    avvicinando una mano alla sua superficie\ne, con cautela, la apri"
   _rispostaCorretta: 1
   _possibiliRisposte:
   - _testo: A

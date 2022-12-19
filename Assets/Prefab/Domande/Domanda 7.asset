@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _titolo: Domanda 7
   _testoDomanda: "Una volta giunto al punto di raccolta come mi comporto? Metti le
-    risposte nella sequenza corretta\r:\n\nA. Comunico al Coordinatore dell\u2019emergenza
-    le informazioni di ritorno sulla corretta evacuazione del personale\r\nB. Mi
-    metto a disposizione dei soccorritori esterni\r\nC. Procedo all\u2019appello
-    del personale evacuato"
+    risposte nella sequenza corretta:\n\nA. Comunico al Coordinatore dell\u2019emergenza
+    le informazioni di ritorno sulla corretta evacuazione del personale\nB. Mi metto
+    a disposizione dei soccorritori esterni\nC. Procedo all\u2019appello del personale
+    evacuato"
   _rispostaCorretta: 0
   _possibiliRisposte:
   - _testo: CAB
