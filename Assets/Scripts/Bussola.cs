@@ -4,17 +4,28 @@ using UnityEngine;
 
 public class Bussola : MonoBehaviour
 {
-   public Transform playerTransform;
-   public GameObject waypoints;
+    private SimpleWaypoint _activeWaypoint;
 
     void Update()
     {
-       
-        playerTransform = waypoints.GetComponentsInChildren<Transform>()[1];
-        Vector3 targetPos = playerTransform.position-transform.position;
-        targetPos.y = 0;
-        float singleStep = 5f * Time.deltaTime;
-        Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetPos, singleStep, 0.0f);  
-        transform.rotation = Quaternion.LookRotation(newDirection);    
+        if(_activeWaypoint == null || _activeWaypoint.gameObject.activeInHierarchy == false)
+        {
+            FindNewWaypoint();
+        }
+
+        if(_activeWaypoint != null)
+        {
+            Vector3 myFlatPos = new Vector3(transform.position.x, 0, transform.position.z);
+            Vector3 hisFlatPos = new Vector3(_activeWaypoint.transform.position.x, 0, _activeWaypoint.transform.position.z);
+
+            Quaternion lookRot = Quaternion.LookRotation(hisFlatPos - myFlatPos);
+
+            transform.rotation = Quaternion.Lerp(transform.rotation, lookRot, 3 * Time.deltaTime);
+        }
+    }
+
+    private void FindNewWaypoint()
+    {
+        _activeWaypoint = FindObjectOfType<SimpleWaypoint>();
     }
 }

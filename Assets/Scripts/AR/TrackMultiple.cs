@@ -55,7 +55,6 @@ public class TrackMultiple : MonoBehaviour
         allObjects = new Dictionary<string, GameObject>();
         for (int i = 0; i < refImageCount; i++)
         {
-            Debug.Log(refImageCount);
             GameObject newOverlay = ObjectsToPlace[i];
             //check if the object is prefab and need to be instantiated
             if (ObjectsToPlace[i].gameObject.scene.rootCount == 0)
