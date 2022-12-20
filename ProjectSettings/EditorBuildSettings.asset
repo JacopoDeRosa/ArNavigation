@@ -9,9 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu_Scene.unity
     guid: 637e11f278a2ff74eac2d0679b536086
   - enabled: 1
-    path: Assets/Scenes/Alignment_Scene.unity
-    guid: 2c3ea7c85390c414089d8d4e5d0b55b4
-  - enabled: 1
     path: Assets/Scenes/Main_AR_Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
