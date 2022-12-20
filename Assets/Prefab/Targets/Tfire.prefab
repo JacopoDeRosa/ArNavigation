@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6828386557276612813}
   - component: {fileID: 3365067126303263224}
   - component: {fileID: 8943491025432097602}
+  - component: {fileID: 3612396637194349198}
   m_Layer: 0
   m_Name: Tfire
   m_TagString: Untagged
@@ -60,6 +61,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _domanda: {fileID: 11400000, guid: 9dfa480998846f34e8ed17c53d7cbd19, type: 2}
   _delay: 5
+--- !u!114 &3612396637194349198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2690948890869963262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2231de5502471964eb8c35a65a076b0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1477486965750835426
 PrefabInstance:
   m_ObjectHideFlags: 0
