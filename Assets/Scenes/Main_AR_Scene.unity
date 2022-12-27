@@ -10432,6 +10432,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1421156806}
   - component: {fileID: 1421156805}
+  - component: {fileID: 1421156807}
   m_Layer: 6
   m_Name: Line
   m_TagString: Untagged
@@ -10459,7 +10460,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e9594bdb37bd5134587a4f26b8722900, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10540,7 +10541,7 @@ LineRenderer:
     numCornerVertices: 12
     numCapVertices: 0
     alignment: 0
-    textureMode: 0
+    textureMode: 1
     shadowBias: 0.5
     generateLightingData: 0
   m_UseWorldSpace: 0
@@ -10560,6 +10561,20 @@ Transform:
   m_Father: {fileID: 1058931680}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1421156807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421156804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0628a5e88fd26a74c87c551a36b5bb33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1421156805}
+  _speed: 1
 --- !u!1 &1440283600
 GameObject:
   m_ObjectHideFlags: 0
@@ -15201,6 +15216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1951355342}
   - component: {fileID: 1951355343}
+  - component: {fileID: 1951355344}
   m_Layer: 6
   m_Name: Line
   m_TagString: Untagged
@@ -15329,6 +15345,20 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 0
   m_Loop: 0
+--- !u!114 &1951355344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951355341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0628a5e88fd26a74c87c551a36b5bb33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1951355343}
+  _speed: 1
 --- !u!1 &1967268768
 GameObject:
   m_ObjectHideFlags: 0
