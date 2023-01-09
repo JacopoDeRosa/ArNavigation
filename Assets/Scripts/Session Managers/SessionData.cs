@@ -27,7 +27,7 @@ public static class SessionData
     {
         string data = "Dati test app AR di " + _userName + ": \n \n";
         
-        data += "Numero di risposte sbagliate " + _domandeSbagliate + " \n";
+        data += "Numero di tentativi effettuati " + _domandeSbagliate + " \n";
         TimeSpan time = TimeSpan.FromSeconds(Time.time - _timeAtStart);
         data += "Tempo Totale impiegato: " + time.ToString("hh':'mm':'ss");
 
